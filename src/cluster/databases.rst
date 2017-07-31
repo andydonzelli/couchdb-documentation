@@ -70,7 +70,7 @@ consistent cluster-wide setting like:
 
 In this example, it will ensure that two replicas for a shard will be hosted
 on nodes with the zone attribute set to ``metro-dc-a`` and one replica will
-be hosted on a new wiht the zone attribute set to ``metro-dc-b``.
+be hosted on a node with the zone attribute set to ``metro-dc-b``.
 
 Note that you can also use this system to ensure certain nodes in the cluster
 do not host *any* replicas for newly created databases, by giving them a zone
